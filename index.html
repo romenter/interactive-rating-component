@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title> Interactive rating component | By Romen, Ter Gazarian | FM</title>
+
+</head>
+<body>
+  <div class="conteiner" id="conteiner" >
+    <div class="star-conteiner">
+      <div class="circle">
+        <img src="./images/icon-star.svg" alt="star">
+      </div>
+    </div>
+      
+    <!-- Rating state start -->
+    <h1>How did we do?</h1>
+    <p>
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+    <section class="rating">
+      <!-- Use 'aria-selected' for indicate value of the button, in this case, it start in false, and in JS we change it to value we needed.
+      The role is button (its like id to ARIA -i'm understand) -->
+      <button class="circle rate" id="1" aria-selected="false" role="button">1</button>
+      <button class="circle rate" id="2" aria-selected="false" role="button">2</button>
+      <button class="circle rate" id="3" aria-selected="false" role="button">3</button>
+      <button class="circle rate" id="4" aria-selected="false" role="button">4</button>
+      <button class="circle rate" id="5" aria-selected="false" role="button">5</button>
+    </section>
+    <button class="submit" id="submit" type="submit">SUBMIT</button>
+  </div>
+
+<div class="conteiner-2" id="conteiner-2" style="display: none">
+    <div class="img-conteiner">
+      <img src="./images/illustration-thank-you.svg" alt="">
+    </div>
+    <div class="devolution">
+      You selected <span class="dev-span" id="devolution"></span> out of 5
+    </div>
+    <h1>
+      Thank you!
+    </h1>
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!
+    </p>
+  
+    
+  </div>
+    
+ 
+<script src="./index.js"></script>
+</body>
+</html>
+
+
