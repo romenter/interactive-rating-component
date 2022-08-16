@@ -21,7 +21,7 @@ The users should be able to:
 
 ## A cuple of coments
 
-I've be used ARIA method. Its not the best method to do this challenge, but for te case, i learn a cuple thinks in the past i don't know.
+I've be used ARIA method. Its not the best method to do this challenge, but in this case, i learn a couple thinks in the past i didn't know.
 
 
 
